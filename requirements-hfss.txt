@@ -1,0 +1,1 @@
+ansys-aedt-core>=0.10

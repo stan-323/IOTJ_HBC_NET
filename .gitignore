@@ -1,0 +1,67 @@
+# Private data and generated outputs
+data/
+outputs/
+figures/
+results/
+*.csv
+*.tsv
+*.xlsx
+*.mat
+*.h5
+*.hdf5
+*.npz
+*.npy
+
+# HFSS/AEDT projects and result databases
+*.aedt
+*.aedt.lock
+*.aedtresults/
+*.pyaedt/
+*.asol
+*.asol_priv
+*.evtrs*
+*.sf_fld*
+*.sf_msh*
+*.ngmesh
+*.dmesh/
+*.cmesh/
+*.imesh/
+*.sd/
+*.su
+*.tv*
+*.nvc
+*.fct
+PersonalLib/
+projects/
+
+# Generated media and manuscript artifacts
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pptx
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.xdv
+*.synctex.gz
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

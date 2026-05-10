@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: "IOTJ HFSS-Aware Scheduling Code"
+message: "If you use this code, please cite the associated paper."
+type: software
+authors:
+  - family-names: "Anonymous"
+    given-names: "Authors"
+date-released: 2026-05-11
+license: MIT
