@@ -1,0 +1,6 @@
+scenario,label,freq_MHz,path_loss_dB,P_rx_W_at_1mW,Q_p95_W_per_m3,literature_anchor
+surface_x050,t_scan_x050,13.56,,,,Bae 2012 21 MHz surface 50 mm
+surface_x150,t_scan_x150,13.56,,,,Distance-scale extrapolation
+implant_d10,t_depth_d010,13.56,,,,Subcutaneous IPG depth anchor
+implant_d30,t_depth_d030,13.56,,,,Callejon/Li depth trend cross-check
+implant_d50,t_depth_d050,13.56,,,,Pacemaker-depth feasibility anchor

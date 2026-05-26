@@ -1,0 +1,13 @@
+! Touchstone file exported from HFSS 2024.1.0
+!        File:           E:/Codex_Project/IOTJ_V2/0515/0515_chest/hfss/torso_main/projects/hbc_torso_main.aedt
+!        Generated:      01:12:16 AM May 16, 2026
+!        Design:         t_imp10_stress
+!        Project:        hbc_torso_main
+!        Setup:          Setup1
+!        Solution:       SP40p0
+!
+# GHz S MA R 50.000000
+! Terminal data exported
+! Port[1] = HubPort
+! Port[2] = NodePort
+0.04                           0.608890364726604 -13.1330153744744 0.00021665604576511 34.0513671044213 0.00021665604576511 34.0513671044213 0.704883368799961 -11.6542336573911 

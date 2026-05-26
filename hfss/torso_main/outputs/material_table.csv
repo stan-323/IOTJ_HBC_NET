@@ -1,0 +1,7 @@
+material,epsilon_r,sigma_S_per_m,density_kg_per_m3,note
+skin_rest,120.0,0.7,1109.0,Dry chest-wall skin proxy near 1-40 MHz
+skin_sweat,120.0,1.1,1109.0,Wet-skin proxy for exercise sweat
+fat,18.0,0.05,911.0,Chest/abdominal subcutaneous fat proxy
+muscle,95.0,0.8,1090.0,Pectoral/intercostal muscle proxy
+fibrosis,60.0,0.2,1050.0,Fibrotic encapsulation sensitivity proxy
+degraded_contact,60.0,0.3,1000.0,Dried/aged hydrogel adhesive interface; degraded ECG patch proxy

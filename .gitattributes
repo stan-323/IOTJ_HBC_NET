@@ -1,0 +1,21 @@
+* text=auto
+
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.svg text
+
+*.aedt binary
+*.aedtresults/** binary
+*.pyaedt/** binary
+*.asol binary
+*.fld text
+*.s2p text
+
+*.csv text
+*.md text
+*.py text
+*.tex text
+*.bib text
+*.bbl text

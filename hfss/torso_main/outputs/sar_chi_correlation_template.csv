@@ -1,0 +1,9 @@
+label,chi_norm,SAR_1g_W_per_kg_hub_hotspot,SAR_10g_W_per_kg_hub_hotspot,SAR_1g_W_per_kg_rx_hotspot,SAR_10g_W_per_kg_rx_hotspot,chi_sar_rank_consistent
+t_surf_rest,,,,,,
+t_surf_sweat,,,,,,
+t_surf_loose,,,,,,
+t_surf_fail,,,,,,
+t_imp10_rest,,,,,,
+t_imp10_stress,,,,,,
+t_imp30_rest,,,,,,
+t_imp30_stress,,,,,,
