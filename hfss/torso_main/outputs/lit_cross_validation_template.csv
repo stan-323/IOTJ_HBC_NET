@@ -1,0 +1,6 @@
+source_key,published_quantity,hfss_case,acceptance_band,status
+bae_tmt_2012,surface 50 mm around 21 MHz path loss,t_scan_x050 @ 21 MHz,"trend/scale, target within about 5 dB after digitization",pending_digitization
+maity_tbme_2019,surface about 100 mm around 1 MHz path loss,t_scan_x110 @ 1 MHz,"trend/scale, target within about 6 dB after digitization",pending_digitization
+datta_tbme_2021,EQS body-channel variability envelope,t_scan_x110 @ 1/10 MHz,inside published variability envelope,pending_digitization
+li_ne_2021,body-area power transfer depth/efficiency trend,t_depth_d020 normalized g,order-of-magnitude consistency only,pending_digitization
+callejon_tbme_2012,galvanic/body-coupled depth response,t_depth_d030,"trend/scale, target within about 8 dB after geometry caveats",pending_digitization

@@ -1,0 +1,4 @@
+﻿status=completed
+project=E:\Codex_Project\iotj_chest\hfss\torso_main\projects\hbc_torso_main.aedt
+case_count=8
+detail=Exported 25 S-parameter rows and 8 field rows.

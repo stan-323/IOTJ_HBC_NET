@@ -1,0 +1,1 @@
+anchor,case,type,distance_mm,depth_mm,freq_MHz,path_loss_dB,S21_dB,P_tx_mW,P_tx_dBm,S21_mag2,P_rx_W,P_rx_uW,Q_p95_W_per_m3,reference_Q_p95_W_per_m3,B_EM_0p84_budget_W_per_m3,E_min_0p35_J,E_safe_0p3695_J,energy_buffer_note,field_proxy_note

@@ -1,6 +1,8 @@
-matplotlib>=3.8
-numpy>=1.26
-pandas>=2.2
-pillow>=10.0
-pytest>=8.0
-scipy>=1.11
+numpy
+pandas
+scipy
+matplotlib
+pytest
+
+# Optional, required only for building or solving HFSS projects from Python:
+# ansys-aedt-core

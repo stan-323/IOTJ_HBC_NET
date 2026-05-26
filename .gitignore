@@ -1,67 +1,51 @@
-# Private data and generated outputs
-data/
-outputs/
-figures/
-results/
-*.csv
-*.tsv
-*.xlsx
-*.mat
-*.h5
-*.hdf5
-*.npz
-*.npy
+# OS/editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+.vscode/
 
-# HFSS/AEDT projects and result databases
-*.aedt
-*.aedt.lock
-*.aedtresults/
-*.pyaedt/
-*.asol
-*.asol_priv
-*.evtrs*
-*.sf_fld*
-*.sf_msh*
-*.ngmesh
-*.dmesh/
-*.cmesh/
-*.imesh/
-*.sd/
-*.su
-*.tv*
-*.nvc
-*.fct
-PersonalLib/
-projects/
-
-# Generated media and manuscript artifacts
-*.pdf
-*.png
-*.jpg
-*.jpeg
-*.svg
-*.pptx
-*.aux
-*.bbl
-*.blg
-*.fdb_latexmk
-*.fls
-*.log
-*.out
-*.xdv
-*.synctex.gz
-
-# Python
+# Python caches
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
-.venv/
-venv/
 
-# OS/editor
-.DS_Store
-Thumbs.db
-.idea/
-.vscode/
+# LaTeX transient build files
+*.aux
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.idx
+*.ilg
+*.ind
+*.log
+*.lof
+*.lot
+*.out
+*.run.xml
+*.synctex.gz
+*.toc
+
+# Temporary files
+*.tmp
+*.bak
+~$*
+scratch/
+
+# AEDT/HFSS generated solver caches
+*.aedt.lock
+*.aedtresults/
+*.pyaedt/
+hfss/**/projects/*.aedtresults/
+hfss/**/projects/*.pyaedt/
+
+# Scratch and exploratory experiment outputs
+main_experiment/output_0515_chest_scratch/
+main_experiment/output_0515_chest_smoke/
+main_experiment/output_0515_chest_phase2b_*/
+main_experiment/output_0515_chest_phase2_BEM_*/
+main_experiment/output_0515_chest_phase2_energy_torso_sweep_*/
+main_experiment/output_0515_chest_*/**/*_per_slot.csv
