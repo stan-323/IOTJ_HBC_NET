@@ -1,0 +1,11 @@
+item,setting
+torso_model,"300 mm long, radius 150 mm circular chest/torso surrogate"
+layers,skin 2 mm; fat 5 mm; muscle core radius 143 mm
+frequencies,"1, 10, 13.56, 21, and 40 MHz where requested; all main/scan cases include 13.56 and 40 MHz"
+ports,50 ohm lumped ports; 1.0 W incident-power reference for absolute field/SAR tables
+electrodes,hub 10 x 6 x 0.2 mm gap 8 mm; surface RX 6 x 3 x 0.2 mm gap 4 mm; implant RX 4 x 2 x 1 mm gap 4 mm
+fat_thickness,5 mm subcutaneous fat; muscle boundary at 143 mm radius; 10 mm implant lands in muscle
+stress_model,"implant stress: 1 mm fibrotic encapsulation shell (sigma=0.20 S/m, eps_r=60); surface loose: 0.3 mm degraded-contact layer (sigma=0.30 S/m); no x-position drift"
+mesh,"adaptive max Delta S 0.01, max 8 passes, electrode mesh 0.5 mm, gap mesh 0.1 mm, fibrosis mesh 0.2 mm"
+air_region,"300 mm margin is a practical near-field margin; it is 0.040 lambda at 40 MHz, not lambda/4"
+field_proxy,receiver observation cube exports sigma*|E|^2 statistics; SAR uses dedicated 1g/10g post-processing

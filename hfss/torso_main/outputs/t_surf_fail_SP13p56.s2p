@@ -1,0 +1,13 @@
+! Touchstone file exported from HFSS 2024.1.0
+!        File:           hbc_torso_main.aedt
+!        Generated:      01:10:12 AM May 16, 2026
+!        Design:         t_surf_fail
+!        Project:        hbc_torso_main
+!        Setup:          Setup1
+!        Solution:       SP13p56
+!
+# GHz S MA R 50.000000
+! Terminal data exported
+! Port[1] = HubPort
+! Port[2] = NodePort
+0.01356                        0.61292148771508 -4.38799138731354 3.50878578696458E-06 84.6369983259778 3.50878578696458E-06 84.6369983259778 0.999986974077136 -0.152335854692819 

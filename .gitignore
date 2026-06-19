@@ -65,3 +65,11 @@ venv/
 Thumbs.db
 .idea/
 .vscode/
+
+# --- Released HFSS calibration package (intentionally tracked; overrides the broad ignores above) ---
+# The full AEDT project (*.aedt) and solver caches remain ignored above and are NOT distributed.
+!data/
+!data/calibrated_library_sched.csv
+!hfss/torso_main/
+!hfss/torso_main/outputs/
+!hfss/torso_main/outputs/**
